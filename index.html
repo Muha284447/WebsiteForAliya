@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>For the girl I love</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="floating-hearts-root"></div>
+
+  <!-- Landing Page -->
+  <main id="landing" class="page full-screen center">
+    <div class="card">
+      <h1 class="serif title">For the girl I love</h1>
+      <h1 class="serif title">❤️Aliya❤️</h1>
+      <p class="lead">I made this website because a normal message was not enough to explain how much I love you.</p>
+      <div class="emoji-row">💌 ❤️ 🥰 ✨</div>
+      <button id="startBtn" class="btn primary">Start reading</button>
+    </div>
+  </main>
+
+  <!-- Main Love Letter Page -->
+  <section id="letter" class="page full-screen">
+    <nav class="topbar">
+      <div class="logo">My Heart in Words</div>
+      <div class="nav-actions"><button id="backToLanding" class="btn ghost">Back</button></div>
+    </nav>
+
+    <div class="container">
+      <header class="section head">
+        <h2 class="serif reveal heading">My Heart in Words</h2>
+        <p class="lead reveal">A little digital love letter — just words and my heart.</p>
+      </header>
+
+      <section class="section" id="section-love">
+        <h2 class="serif reveal">How much do I love you?</h2>
+        <p class="reveal sub">I love you more than I can explain, but I still want to try.</p>
+        <div class="lines">
+          <div class="line typewrite" data-delay="200">I love you on your good days.</div>
+          <div class="line typewrite" data-delay="400">I love you on your tired days.</div>
+          <div class="line typewrite" data-delay="600">I love you when you smile.</div>
+          <div class="line typewrite" data-delay="800">I love you when you overthink.</div>
+          <div class="line typewrite" data-delay="1000">I love you when you are happy.</div>
+          <div class="line typewrite" data-delay="1200">I love you even when you are silent.</div>
+          <div class="line typewrite" data-delay="1400">I love you in every version of you.</div>
+        </div>
+      </section>
+
+      <section class="section cards" id="section-cards">
+        <h2 class="serif reveal">Things I Love About You</h2>
+        <div class="card-grid">
+          <article class="love-card reveal">
+            <h4>Your smile</h4>
+            <p>It can change my whole mood.</p>
+          </article>
+          <article class="love-card reveal">
+            <h4>Your heart</h4>
+            <p>You care in a way that makes you special.</p>
+          </article>
+          <article class="love-card reveal">
+            <h4>Your presence</h4>
+            <p>Even a normal day feels better when you are part of it.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="section-reasons">
+        <h2 class="serif reveal">Reasons I Choose You</h2>
+        <ol class="reasons reveal">
+          <li>Because you make me feel lucky.</li>
+          <li>Because you are my favorite person.</li>
+          <li>Because I feel peaceful with you.</li>
+          <li>Because loving you feels natural.</li>
+          <li>Because I never get tired of you.</li>
+          <li>Because you are beautiful inside and outside.</li>
+          <li>Because even small moments with you matter to me.</li>
+          <li>Because you make my life softer.</li>
+          <li>Because I want to grow with you.</li>
+          <li>Because it is you. Always you.</li>
+        </ol>
+      </section>
+
+      <section class="section center" id="section-number">
+        <h2 class="serif reveal">If Love Had a Number</h2>
+        <div class="poem reveal">
+          <p class="typewrite">If love had a number, mine would be infinite.</p>
+          <p class="typewrite">If love had a distance, mine would reach everywhere.</p>
+          <p class="typewrite">If love had a language, it still would not be enough to explain what I feel for you.</p>
+        </div>
+      </section>
+
+      <section class="section" id="section-promise">
+        <h2 class="serif reveal">My Promise</h2>
+        <div class="promises reveal">
+          <p class="typewrite">I promise to care about you.</p>
+          <p class="typewrite">I promise to listen to you.</p>
+          <p class="typewrite">I promise to respect your heart.</p>
+          <p class="typewrite">I promise to remind you how loved you are, even on the days you forget it.</p>
+          <p class="typewrite">I promise to choose you with honesty, patience, and love.</p>
+        </div>
+      </section>
+
+      <section class="section final-message" id="section-final">
+        
+
+        <div class="survey reveal">
+          <p class="q">Do you love me?</p>
+          <div class="survey-row">
+            <button id="yesBtn" class="btn primary">YESS</button>
+            <button id="noBtn" class="btn playful">no :(</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </section>
+
+  <!-- Final Yes Page -->
+  <section id="final" class="page full-screen center hidden">
+    <div class="final-card">
+        <h1 class="giant">❤️❤️❤️❤️❤️❤️❤️</h1>
+      <h1 class="giant">I LOVE YOU TOOOO</h1>
+      <h1 class="giant">❤️❤️❤️❤️❤️❤️❤️</h1>
+      <div id="final-effects"></div>
+      <button id="restart" class="btn ghost">Read again</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
